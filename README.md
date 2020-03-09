@@ -35,6 +35,20 @@ In order to generate a protocol buffer with different fields inside protocol_buf
 > notebook.ipynb
 Includes the experiments used to train, predict and evaluate the output of the proposed framework
 
+## Results
+here are the quantitative results of generated audio
+
+| SIR  	|  SAR 	| SDR  	|
+|:-:	|:-:	|:-:	|
+|  11.670795746936527 	|  11.670795746936527 	|  6.5125854585956136 	|
+
+## Audio Demos
+
+[Schoolboy Fascination-mixed tracks](https://github.com/mostafaelaraby/cyclic-gan-music-source-separation/blob/master/results/Al%20James%20-%20Schoolboy%20Fascination-01.wav)
+
+[Schoolboy Fascination-single track](https://github.com/mostafaelaraby/cyclic-gan-music-source-separation/blob/master/results/Al%20James%20-%20Schoolboy%20Fascination-01_single_latest.wav)
+
+
 ## Sidenote
 This is an exploration project, it includes evaluation python blocks to compute SDR, SIR and SAR.
 It includes a simple usage of LMDB loader and wavegan model implementation.

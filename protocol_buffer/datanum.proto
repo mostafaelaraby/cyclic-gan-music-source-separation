@@ -1,0 +1,6 @@
+syntax = "proto3";
+message DataNum {
+   bytes mixture = 1;
+   bytes vocals = 2; 
+   bytes vocals_indices = 3;
+}
